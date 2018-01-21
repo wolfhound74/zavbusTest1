@@ -12,6 +12,8 @@
 		0B18D47D2012135E006DE5EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B18D47B2012135E006DE5EE /* Main.storyboard */; };
 		0B18D47F2012135E006DE5EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B18D47E2012135E006DE5EE /* Assets.xcassets */; };
 		0B18D4822012135E006DE5EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B18D4802012135E006DE5EE /* LaunchScreen.storyboard */; };
+		0B8E2E832014D55F00CDE6CC /* RiderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8E2E822014D55F00CDE6CC /* RiderViewController.swift */; };
+		0BE812E02014CFBE005E4AE8 /* RidersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE812DF2014CFBE005E4AE8 /* RidersTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0B18D47E2012135E006DE5EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B18D4812012135E006DE5EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B18D4832012135E006DE5EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B8E2E822014D55F00CDE6CC /* RiderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiderViewController.swift; sourceTree = "<group>"; };
+		0BE812DF2014CFBE005E4AE8 /* RidersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidersTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				0B18D47E2012135E006DE5EE /* Assets.xcassets */,
 				0B18D4802012135E006DE5EE /* LaunchScreen.storyboard */,
 				0B18D4832012135E006DE5EE /* Info.plist */,
+				0BE812DF2014CFBE005E4AE8 /* RidersTableViewController.swift */,
+				0B8E2E822014D55F00CDE6CC /* RiderViewController.swift */,
 			);
 			path = zavbusTest1;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BE812E02014CFBE005E4AE8 /* RidersTableViewController.swift in Sources */,
+				0B8E2E832014D55F00CDE6CC /* RiderViewController.swift in Sources */,
 				0B18D47A2012135E006DE5EE /* ViewController.swift in Sources */,
 				0B18D4782012135E006DE5EE /* AppDelegate.swift in Sources */,
 			);
@@ -277,11 +285,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PGMM8ESLNS;
 				INFOPLIST_FILE = zavbusTest1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = team.zavbus.zavbusTest1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -292,11 +301,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PGMM8ESLNS;
 				INFOPLIST_FILE = zavbusTest1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = team.zavbus.zavbusTest1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
